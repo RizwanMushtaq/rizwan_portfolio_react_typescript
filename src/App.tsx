@@ -17,7 +17,7 @@ function App() {
     <Header></Header>
     <div className='routes'>
       <Routes>
-        <Route path='/' element={<Navigate replace to="/welcome" />}></Route>
+        <Route path='/' element={<Navigate replace to="/projects" />}></Route>
         <Route path='/welcome' element={<Welcome></Welcome>}></Route>
         <Route path='/projects/' element={<Projects></Projects>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
