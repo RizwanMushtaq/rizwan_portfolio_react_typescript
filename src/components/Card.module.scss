@@ -1,0 +1,23 @@
+@import './../sass/variables.scss';
+
+.projectsCard {
+    min-width: $projectsCardWidth;
+    min-height: $projectsCardHeight;
+    background-color: white;
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+.projectCard {
+    width: $projectCardWidth;
+    height: $projectCardHeight;
+    background-color: skyblue;
+
+    margin: 16px;
+}

@@ -18,5 +18,22 @@ export const projects: Project[] =  [
         projectDescription: 'do it now2 description'
 
     },
-   
+    {
+        projectId: 'doitnow3',
+        projectTitle: 'do it now2 title',
+        projectDescription: 'do it now2 description'
+
+    },
+    {
+        projectId: 'doitnow4',
+        projectTitle: 'do it now2 title',
+        projectDescription: 'do it now2 description'
+
+    },
+    {
+        projectId: 'doitnow5',
+        projectTitle: 'do it now2 title',
+        projectDescription: 'do it now2 description'
+
+    },
 ]

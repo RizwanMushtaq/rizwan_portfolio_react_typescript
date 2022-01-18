@@ -1,27 +1,27 @@
 import React from 'react'
-import Styles from './Projects.module.scss'
 
+import Card from '../components/Card'
 import { NavLink } from 'react-router-dom'
 import { projects } from './../assets/AllProjects'
 
 const Projects: React.FC = () => {
     return (
-        <div className={Styles.container}>
-             
-            <h1>Projects</h1>
-            <ul>
+        <Card type={'projectsCard'}>
+            <>
                 {
                     projects.map( (project) => {
                         return (
-                            <li key={project.projectId}>
-                                <NavLink to={`/projects/${project.projectId}`}>{project.projectId}</NavLink>
-                                <p>{project.projectDescription}</p>
-                            </li>
+                            <Card key={project.projectId} type={'projectCard'}>
+                                <>
+                                    <NavLink to={`/projects/${project.projectId}`}>{project.projectId}</NavLink>
+                                    <p>{project.projectDescription}</p>
+                                </>
+                            </Card>
                         )
                     })
                 }
-            </ul>
-        </div>
+            </>
+        </Card>
     )
 }
 
