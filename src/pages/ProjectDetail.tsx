@@ -6,14 +6,13 @@ import { projects } from './../assets/AllProjects'
 const ProjectDetail:React.FC = () => {
 
     const params = useParams()
-    const project = projects.find( project => project.projectId === params.id)
+    const project = projects.find( project => project.title === params.title)
 
     return (
         <div>
             <h1>Project Detail</h1>
-            <p>{project!.projectId}</p>
-            <p>{project!.projectTitle}</p>
-            <p>{project!.projectDescription}</p>
+            <p>{project!.id}</p>
+            <p>{project!.title}</p>
         </div>
     )
 }

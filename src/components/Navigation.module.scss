@@ -1,14 +1,14 @@
 .navigationList {
-    width: 30rem;
+    width: 20rem;
     list-style-type: none;
     
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .navigationList li a {
     text-decoration: none;
-    color: white;
 }
 .navigationList li a:hover {
-    color: rgb(221, 220, 220);
+    color: blue;
 }
