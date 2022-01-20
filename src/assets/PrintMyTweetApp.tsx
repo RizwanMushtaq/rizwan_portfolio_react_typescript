@@ -3,7 +3,7 @@ import printMyTweetApp_pic from './images/PrintMyTweetAppImage-364.png'
 
 export const PrintMyTweetApp: Project = {
     id: 0,
-    title: 'Print My Tweet App (JavaScript)',
+    title: 'Print My Tweet App (JavaScript CSS HTML)',
     pic: printMyTweetApp_pic,
     demoLink: 'https://rizwanmushtaq.github.io/PrintMyTweet/',
     codeLink: 'https://github.com/RizwanMushtaq/PrintMyTweet/tree/main',

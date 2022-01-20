@@ -13,7 +13,7 @@ const Navigation: React.FC = () => {
                     <NavLink to={'/projects'}>Projects</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/contact'}>Conatct</NavLink>
+                    <NavLink to={'/contact'}>Contact</NavLink>
                 </li>
             </ul>
         </div>

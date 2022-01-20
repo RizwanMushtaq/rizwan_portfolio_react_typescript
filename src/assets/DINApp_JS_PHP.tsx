@@ -3,7 +3,7 @@ import doItNowApp_js_php_pic from './images/doitnow_php_364-255.png'
 
 export const DINApp_JS_PHP: Project = {
     id: 1,
-    title: 'Do It Now App (JavaScript & PHP)',
+    title: 'Do It Now App (JavaScript PHP)',
     pic: doItNowApp_js_php_pic,
     demoLink: 'https://doitnow-mysql-php-js-css-herok.herokuapp.com/',
     codeLink: 'https://github.com/RizwanMushtaq/doitnow_mysql_php_js_css_heroku',

@@ -3,7 +3,7 @@ import doItNowApp_react_useState_pic from './images/AppPage-464-256.png'
 
 export const DINApp_React_useState: Project = {
     id: 3,
-    title: 'Do It Now App (React.js)',
+    title: 'Do It Now App (React)',
     pic: doItNowApp_react_useState_pic,
     demoLink: 'https://doitnow-reactjs-sass.netlify.app/',
     codeLink: 'https://github.com/RizwanMushtaq/doitnow_reactjs_sass',
