@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Navigate replace to="/projects" />}></Route>
         <Route path='/welcome' element={<Welcome></Welcome>}></Route>
-        <Route path='/projects/' element={<Projects></Projects>}></Route>
+        <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/projects/:title' element={<ProjectDetail></ProjectDetail>}></Route>
         
