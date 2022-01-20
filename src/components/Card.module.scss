@@ -1,7 +1,7 @@
 @import './../sass/variables.scss';
 
 .projectsCard {
-    max-width: 1280px;
+    width: 1000px;
     min-height: 100%;
     background-color: white;
     
@@ -26,7 +26,7 @@
 }
 
 .welcomeCard {
-    max-width: 1280px;
+    width: 1000px;
     min-height: 100%;
     background-color: white;
 
@@ -35,7 +35,7 @@
     align-items: center;
 }
 .projectDetailCard {
-    max-width: 1280px;
+    width: 1000px;
     min-height: 100%;
     background-color: white;
 
@@ -44,6 +44,6 @@
     align-items: center;
 }
 .contactCard {
-    max-width: 1024px;
+    width: 1000px;
     background-color: white;
 }

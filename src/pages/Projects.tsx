@@ -11,9 +11,11 @@ const Projects: React.FC = () => {
         <Card type={'projectsCard'}>
             <div className={Styles.container}>
                 <div className={Styles.rightArrowContainer}>
+                    <div className={Styles.rightArrowContainerInner}>
                         <NavLink className={Styles.imgContainer} to={'/welcome'}>
                             <img src={arrowIcon} alt="arrowIcon" />
                         </NavLink>
+                    </div>  
                 </div>
                 <div className={Styles.allProjectsContainer}>
                     {

@@ -54,9 +54,11 @@ const Welcome: React.FC = () => {
                     <img src={RizwanPic} alt="rizwan-pic" />
                 </div>
                 <div className={Styles.rightArrowContainer}>
+                    <div className={Styles.rightArrowContainerInner}>
                         <NavLink className={Styles.imgContainer} to={'/projects'}>
                             <img src={arrowIcon} alt="arrowIcon" />
                         </NavLink>
+                    </div>  
                 </div>
             </div>
         </Card>

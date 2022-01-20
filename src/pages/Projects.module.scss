@@ -1,13 +1,29 @@
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     
 }
 .rightArrowContainer{
     width: 48px;
+    height: 100vh;
+    // background-color: lightgreen;
+
+    position: sticky;
+    top: 0;
+
+}
+.rightArrowContainerInner{
+    width: 48px;
     height: 48px;
+    // background-color: lightgoldenrodyellow;
+
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    left: 0;
+
 }
 .imgContainer{
     width: 100%;
@@ -17,20 +33,19 @@
     justify-content: center;
     align-items: center;
 }
-.rightArrowContainer:hover{
+.rightArrowContainerInner:hover{
     background-color: lightskyblue;
 }
-.rightArrowContainer img{
+.rightArrowContainerInner img{
     width: 75%;
     height: 75%;
     transform: rotate(180deg);
 }
 
 
-
-
 .allProjectsContainer{
-    max-width: 1232px;
+    max-width: 952px;
+    padding-top: 3rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

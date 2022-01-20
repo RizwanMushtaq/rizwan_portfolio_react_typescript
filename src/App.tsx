@@ -4,7 +4,7 @@ import './App.css';
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 // import Header from './components/Header';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 import Welcome from './pages/Welcome';
 import Projects from './pages/Projects';
@@ -33,7 +33,7 @@ function App() {
         />
       </Routes>
     </div>
-    <Footer></Footer>
+    {/* <Footer></Footer> */}
     </div>
   );
 }
