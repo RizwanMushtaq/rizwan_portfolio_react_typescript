@@ -6,7 +6,7 @@ export const DINApp_React_useState: Project = {
     title: 'Do It Now App (React.js)',
     pic: doItNowApp_react_useState_pic,
     demoLink: 'https://doitnow-reactjs-sass.netlify.app/',
-    codeLink: 'https://github.com/RizwanMushtaq/doitnow_reactjs_sass_cleancode',
+    codeLink: 'https://github.com/RizwanMushtaq/doitnow_reactjs_sass',
     description: {
         technologies: [
             'React.js',
