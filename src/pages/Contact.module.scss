@@ -1,0 +1,28 @@
+.heading{
+    font-size: 36px;
+    padding: 16px;
+}
+.subheading{
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer{
+    background-color: lightgray;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoContainer img{
+    width: 50%;
+    height: 50%;
+}

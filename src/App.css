@@ -14,11 +14,11 @@
   flex: 1;
   display: flex;
 
-  margin: 16px;
+  /* margin: 16px; */
 }
 
 /* setting links in navigation bar of header based on NavLink element selection by React Router Library */
-a.active {
+/* a.active {
   padding-bottom: 4px;
   border-bottom: 4px solid blue;
-}
+} */

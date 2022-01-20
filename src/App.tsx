@@ -3,7 +3,7 @@ import './App.css';
 
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import Header from './components/Header';
+// import Header from './components/Header';
 import Footer from './components/Footer';
 
 import Welcome from './pages/Welcome';
@@ -14,7 +14,7 @@ import ProjectDetail from './pages/ProjectDetail';
 function App() {
   return (
     <div className='App'>
-    <Header></Header>
+    {/* <Header></Header> */}
     <div className='routes'>
       <Routes>
         <Route path='/' element={<Navigate replace to="/projects" />}></Route>
