@@ -26,30 +26,28 @@ const ProjectDetail:React.FC = () => {
 
                 <div className={Styles.projectDetailsContainer}>
                     <h1>{project!.title}</h1>
-                    <div className={Styles.projectBody}>
-                        <div className={Styles.projectCard}>
-                            <div className={Styles.imgContainer}>
-                                <img src={project!.pic} alt='project-pic'></img>
-                            </div>
-                            <div className={Styles.buttonsContainer}>
-                                <button
-                                    onClick={() => window.open(project!.demoLink)}
-                                >Live Demo</button>
-                                <button
-                                    onClick={() => window.open(project!.codeLink)}
-                                >Code</button>
-                            </div>
+                    <div className={Styles.projectCard}>
+                        <div className={Styles.imgContainer}>
+                            <img src={project!.pic} alt='project-pic'></img>
                         </div>
-                        <div className={Styles.projectTechnologies}>
-                            <p>Tech Stack Used:</p>
-                            <ul>
-                                {
-                                    project!.description.technologies.map( (item) => (
-                                        <li>{item}</li>
-                                    ))
-                                }
-                            </ul>
+                        <div className={Styles.buttonsContainer}>
+                            <button
+                                onClick={() => window.open(project!.demoLink)}
+                            >Live Demo</button>
+                            <button
+                                onClick={() => window.open(project!.codeLink)}
+                            >Code</button>
                         </div>
+                    </div>
+                    <div className={Styles.projectTechnologies}>
+                        <p>Tech Stack Used:</p>
+                        <ul>
+                            {
+                                project!.description.technologies.map( (item) => (
+                                    <li>{item}</li>
+                                ))
+                            }
+                        </ul>
                     </div>
                     <div className={Styles.projectFunctionality}>
                         <p>Project Features:</p>

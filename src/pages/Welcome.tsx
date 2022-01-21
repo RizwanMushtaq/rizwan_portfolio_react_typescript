@@ -14,44 +14,46 @@ const Welcome: React.FC = () => {
     return (
         <Card type={'welcomeCard'}>
             <div className={Styles.container}>
-                <div className={Styles.introduction}>
-                    <div className={Styles.greeting}>Hello</div>
-                    <div className={Styles.description}>
-                        Rizwan Mushtaq dhudhaal is passionate about Web Development.
-                    </div>
-                    <div className={Styles.contactContainer}>
-                        <div className={Styles.logoContainer}>
-                            <img src={resumeIcon} alt="resume" />
+                <div className={Styles.allContentContainer}>
+                    <div className={Styles.introduction}>
+                        <div className={Styles.greeting}>Hello</div>
+                        <div className={Styles.description}>
+                            Rizwan Mushtaq dhudhaal is passionate about Web Development.
                         </div>
-                        <a 
-                            href={cv} 
-                            target='_blank' 
-                            rel="noreferrer"
-                        >resume</a>
-                    </div>
-                    <div className={Styles.contactContainer}>
-                        <div className={Styles.logoContainer}>
-                            <img src={envelope} alt="email" />
+                        <div className={Styles.contactContainer}>
+                            <div className={Styles.logoContainer}>
+                                <img src={resumeIcon} alt="resume" />
+                            </div>
+                            <a 
+                                href={cv} 
+                                target='_blank' 
+                                rel="noreferrer"
+                            >resume</a>
                         </div>
-                        <a 
-                            href='https://mail.google.com/mail' 
-                            target='_blank' 
-                            rel="noreferrer"
-                        >rizwanmushtaq15@gmail.com</a>
-                    </div>
-                    <div className={Styles.contactContainer}>
-                        <div className={Styles.logoContainer}>
-                            <img src={linkedIn} alt="email" />
+                        <div className={Styles.contactContainer}>
+                            <div className={Styles.logoContainer}>
+                                <img src={envelope} alt="email" />
+                            </div>
+                            <a 
+                                href='https://mail.google.com/mail' 
+                                target='_blank' 
+                                rel="noreferrer"
+                            >rizwanmushtaq15@gmail.com</a>
                         </div>
-                        <a 
-                            href='https://www.linkedin.com/in/rizwan-mushtaq-dhudhaal-7a4091128/' 
-                            target='_blank' 
-                            rel="noreferrer"
-                        >Rizwan Mushtaq Dhudhaal</a>
+                        <div className={Styles.contactContainer}>
+                            <div className={Styles.logoContainer}>
+                                <img src={linkedIn} alt="email" />
+                            </div>
+                            <a 
+                                href='https://www.linkedin.com/in/rizwan-mushtaq-dhudhaal-7a4091128/' 
+                                target='_blank' 
+                                rel="noreferrer"
+                            >Rizwan Mushtaq Dhudhaal</a>
+                        </div>
                     </div>
-                </div>
-                <div className={Styles.avatar}>
-                    <img src={RizwanPic} alt="rizwan-pic" />
+                    <div className={Styles.avatar}>
+                        <img src={RizwanPic} alt="rizwan-pic" />
+                    </div>
                 </div>
                 <div className={Styles.rightArrowContainer}>
                     <div className={Styles.rightArrowContainerInner}>
