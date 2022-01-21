@@ -18,7 +18,26 @@ const Welcome: React.FC = () => {
                     <div className={Styles.introduction}>
                         <div className={Styles.greeting}>Hello</div>
                         <div className={Styles.description}>
-                            Rizwan Mushtaq dhudhaal is passionate about Web Development.
+
+                            <div>Welcome and Thanks for visiting my Web Page 😇</div>
+                            <ul>
+                                <li>
+                                    <div>❇️</div>
+                                    <div className={Styles.text}>I am a Full Stack Web Developer. I am confident in JavaScript, TypeScript, React.JS and Node.JS.</div>
+                                     
+                                </li>
+                                
+                                <li>
+                                    <div>❇️</div>
+                                    <div className={Styles.text}>I have around 5 years of Experience, working in the information technology and services industry.</div> 
+                                </li>
+                                
+                                <li>
+                                    <div>❇️</div>
+                                    <div className={Styles.text}>I have 3 years of experience working with Agile Teams. Ensuring Quality of software products by working closely with DEV, UX, UA, Role Portfolio Managers and Customers.</div>
+                                </li>
+                            </ul>
+                            
                         </div>
                         <div className={Styles.contactContainer}>
                             <div className={Styles.logoContainer}>
